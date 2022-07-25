@@ -15,6 +15,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NzConfig, NZ_CONFIG } from 'ng-zorro-antd/core/config';
 import { SvgDefinitionsComponent } from './views/components/shared/svg-definitions/svg-definitions.component';
 import { SvgIconComponent } from './views/components/shared/svg-icon/svg-icon.component';
+import { BreadcrumbsComponent } from './views/components/shared/breadcrumbs/breadcrumbs.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { SvgIconComponent } from './views/components/shared/svg-icon/svg-icon.co
     SidebarComponent,
     NavigationComponent,
     SvgDefinitionsComponent,
-    SvgIconComponent
+    SvgIconComponent,
+    BreadcrumbsComponent
   ],
   imports: [
     BrowserModule,
