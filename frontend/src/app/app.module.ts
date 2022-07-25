@@ -16,6 +16,7 @@ import { NzConfig, NZ_CONFIG } from 'ng-zorro-antd/core/config';
 import { SvgDefinitionsComponent } from './views/components/shared/svg-definitions/svg-definitions.component';
 import { SvgIconComponent } from './views/components/shared/svg-icon/svg-icon.component';
 import { BreadcrumbsComponent } from './views/components/shared/breadcrumbs/breadcrumbs.component';
+import { ButtonComponent } from './views/components/shared/button/button.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { BreadcrumbsComponent } from './views/components/shared/breadcrumbs/brea
     NavigationComponent,
     SvgDefinitionsComponent,
     SvgIconComponent,
-    BreadcrumbsComponent
+    BreadcrumbsComponent,
+    ButtonComponent
   ],
   imports: [
     BrowserModule,
