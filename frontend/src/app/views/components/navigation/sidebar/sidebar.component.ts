@@ -16,7 +16,7 @@ export class SidebarComponent implements OnInit {
     return this.expanded ? 240 : 20;
   }
 
-  sideBarLinks: SideBarLink[] | undefined;
+  sideBarLinks!: SideBarLink[];
 
   constructor() {}
 
