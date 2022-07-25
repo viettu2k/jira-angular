@@ -10,7 +10,7 @@ import { Project } from 'src/app/interface/project';
 })
 export class SidebarComponent implements OnInit {
   @Input() expanded: boolean | undefined;
-  project: Project;
+  project!: Project;
 
   get sidebarWidth(): number {
     return this.expanded ? 240 : 20;
